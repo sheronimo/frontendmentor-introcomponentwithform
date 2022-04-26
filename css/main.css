@@ -21,4 +21,8 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 1.625;
   background-color: hsl(0deg, 100%, 74%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
