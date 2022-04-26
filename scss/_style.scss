@@ -3,6 +3,10 @@ body {
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.625;
 	background-color: $clr-primary;
+	background-image: url('../images/bg-intro-desktop.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
