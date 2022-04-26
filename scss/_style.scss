@@ -17,3 +17,14 @@ body {
 	align-items: center;
 	grid-gap: 4.75rem;
 }
+
+// Text Introduction
+.intro {
+	color: hsl(0, 0%, 100%);
+
+	.title {
+		font-size: 3rem;
+		line-height: 1.1;
+		margin-bottom: 1.875rem;
+	}
+}
