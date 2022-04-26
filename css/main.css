@@ -14,6 +14,7 @@ a {
 
 input {
   font: inherit;
+  border: none;
 }
 
 body {
@@ -60,6 +61,66 @@ body {
   padding: 1.625rem;
   text-align: center;
   border-radius: 0.625rem;
-  box-shadow: 0px 0.5rem 0px hsla(0deg, 0%, 0%, 0.15);
+  box-shadow: 0px 0.5rem 0% hsla(0deg, 0%, 0%, 0.15);
   margin-bottom: 1.5rem;
+}
+.trial .form-wrapper {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 2.5rem;
+  border-radius: 0.625rem;
+  box-shadow: 0px 0.5rem 0% hsla(0deg, 0%, 0%, 0.17);
+}
+.trial .form-wrapper .form-group {
+  margin-bottom: 1.25rem;
+}
+.trial .form-wrapper .form-group .input-field {
+  display: block;
+  width: 100%;
+  padding: 1.125rem 1.875rem;
+  border-radius: 0.3125rem;
+  border: 1px solid hsl(246deg, 25%, 77%);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: hsl(249deg, 10%, 26%);
+}
+.trial .form-wrapper .form-group .input-field:focus {
+  outline: none;
+  border: 1px solid hsl(249deg, 10%, 26%);
+}
+.trial .form-wrapper .form-group .error-message {
+  color: hsl(0deg, 100%, 74%);
+  font-size: 0.75rem;
+  text-align: right;
+  font-style: italic;
+  padding-top: 0.625rem;
+  display: none;
+}
+.trial .form-wrapper .btn {
+  width: 100%;
+  padding: 1.125rem;
+  text-transform: uppercase;
+  background-color: hsl(154deg, 59%, 51%);
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 0.3125rem;
+  box-shadow: 0px 0.25rem 0 hsl(154deg, 59%, 41%);
+  cursor: pointer;
+}
+.trial .form-wrapper .btn:hover {
+  opacity: 0.9;
+}
+.trial .form-wrapper .terms {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: hsl(246deg, 25%, 77%);
+  font-weight: 500;
+}
+.trial .form-wrapper .terms .terms-link {
+  color: hsl(0deg, 100%, 74%);
+  transition: color 0.3s ease;
+}
+.trial .form-wrapper .terms .terms-link:hover {
+  color: hsl(154deg, 59%, 51%);
 }/*# sourceMappingURL=main.css.map */
