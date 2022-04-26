@@ -39,6 +39,8 @@ body {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-gap: 4.75rem;
+  padding-inline: 1.5rem;
+  padding-block: 6.125rem;
 }
 
 .bold {
@@ -61,14 +63,14 @@ body {
   padding: 1.625rem;
   text-align: center;
   border-radius: 0.625rem;
-  box-shadow: 0px 0.5rem 0% hsla(0deg, 0%, 0%, 0.15);
+  box-shadow: 0px 0.5rem 0px hsla(0deg, 0%, 0%, 0.15);
   margin-bottom: 1.5rem;
 }
 .trial .form-wrapper {
   background-color: hsl(0deg, 0%, 100%);
   padding: 2.5rem;
   border-radius: 0.625rem;
-  box-shadow: 0px 0.5rem 0% hsla(0deg, 0%, 0%, 0.17);
+  box-shadow: 0px 0.5rem 0px hsla(0deg, 0%, 0%, 0.17);
 }
 .trial .form-wrapper .form-group {
   margin-bottom: 1.25rem;
@@ -123,4 +125,25 @@ body {
 }
 .trial .form-wrapper .terms .terms-link:hover {
   color: hsl(154deg, 59%, 51%);
+}
+
+@media (max-width: 50rem) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-gap: 4rem;
+  }
+
+  .intro {
+    text-align: center;
+  }
+  .intro .title {
+    font-size: 2rem;
+  }
+
+  .trial .form-wrapper {
+    padding: 1.5rem;
+  }
+  .trial .form-wrapper .form-group .input-field {
+    padding-inline: 1.1875rem;
+  }
 }/*# sourceMappingURL=main.css.map */

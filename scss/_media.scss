@@ -1,0 +1,26 @@
+@media (max-width: 50rem) {
+	.container {
+		grid-template-columns: 1fr;
+		grid-gap: 4rem;
+	}
+
+	.intro {
+		text-align: center;
+
+		.title {
+			font-size: 2rem;
+		}
+	}
+
+	.trial {
+		.form-wrapper {
+			padding: 1.5rem;
+
+			.form-group {
+				.input-field {
+					padding-inline: 1.1875rem;
+				}
+			}
+		}
+	}
+}
