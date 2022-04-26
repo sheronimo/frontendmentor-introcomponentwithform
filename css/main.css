@@ -25,4 +25,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container {
+  max-width: 69.375rem;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 4.75rem;
 }/*# sourceMappingURL=main.css.map */
