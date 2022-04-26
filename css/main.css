@@ -74,6 +74,17 @@ body {
 }
 .trial .form-wrapper .form-group {
   margin-bottom: 1.25rem;
+  position: relative;
+}
+.trial .form-wrapper .form-group::before {
+  content: "";
+  background-image: url("../images/icon-error.svg");
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 .trial .form-wrapper .form-group .input-field {
   display: block;

@@ -1,4 +1,4 @@
-@media (max-width: 50rem) {
+@media and (max-width: 50rem) {
 	.container {
 		grid-template-columns: 1fr;
 		grid-gap: 4rem;
