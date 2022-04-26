@@ -40,11 +40,26 @@ body {
   grid-gap: 4.75rem;
 }
 
+.bold {
+  font-weight: 600;
+}
+
 .intro {
   color: hsl(0deg, 0%, 100%);
 }
 .intro .title {
   font-size: 3rem;
+  font-weight: 700;
   line-height: 1.1;
   margin-bottom: 1.875rem;
+}
+
+.trial .cta {
+  background-color: hsl(248deg, 32%, 49%);
+  color: hsl(0deg, 0%, 100%);
+  padding: 1.625rem;
+  text-align: center;
+  border-radius: 0.625rem;
+  box-shadow: 0px 0.5rem 0px hsla(0deg, 0%, 0%, 0.15);
+  margin-bottom: 1.5rem;
 }/*# sourceMappingURL=main.css.map */

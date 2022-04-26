@@ -22,13 +22,31 @@ body {
 	grid-gap: 4.75rem;
 }
 
+.bold {
+	font-weight: 600;
+}
+
 // Text Introduction
 .intro {
 	color: hsl(0, 0%, 100%);
 
 	.title {
 		font-size: 3rem;
+		font-weight: 700;
 		line-height: 1.1;
 		margin-bottom: 1.875rem;
+	}
+}
+
+// Trial Section
+.trial {
+	.cta {
+		background-color: $clr-highlight;
+		color: hsl(0, 0%, 100%);
+		padding: 1.625rem;
+		text-align: center;
+		border-radius: 0.625rem;
+		box-shadow: 0px 0.5rem 0px hsla(0, 0%, 0, 0.15);
+		margin-bottom: 1.5rem;
 	}
 }
